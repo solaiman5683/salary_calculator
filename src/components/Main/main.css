@@ -1,5 +1,7 @@
 .flexbox{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     overflow: hidden;
     position: relative;
 }

@@ -9,7 +9,7 @@ const Header = (props) => {
         <div className='container'>
             <h1>Welcome to <span className="text-coral">Hero Kitchen</span></h1>
             <p>This is an app for keeping track of salaries, the money that restaurant employees have been paid we track with this app.</p>
-            <h4 className="p-2">Total Stuff: 50</h4>
+            <h3 className="p-2">Total Stuff: 50</h3>
             <h2 className="p-2">Total Budget: ${totalSalary}</h2>
         </div>
     );
