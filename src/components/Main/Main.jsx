@@ -9,6 +9,7 @@ const Main = () => {
     const [employes, setEmploye] = useState([])
     const [paidData, setPaidData] = useState([])
 
+    // Load Employe Data from API.
     useEffect(() => {
         fetch('https://raw.githubusercontent.com/solaiman5683/employe-json/main/employe.json')
             .then(res => res.json())
@@ -19,7 +20,7 @@ const Main = () => {
 
 
 
-    const handleClick = (employe) => {
+    const handleClick = (employe) => { // Event Handler for Click
         let newEmploye = [...paidData, employe]
         if (!paidData.includes(employe)) {
             setPaidData(newEmploye)
@@ -28,6 +29,7 @@ const Main = () => {
         }
     }
 
+    // Total ammount that paid to Employee
     let totalPaid = 0;
     paidData.forEach(paidSalary => totalPaid += paidSalary.sallary)
 
