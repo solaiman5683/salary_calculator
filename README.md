@@ -2,7 +2,7 @@
 
 This is an app for keeping track of salaries, the money that restaurant employees have been paid we track with this app. (https://herokitchen.netlify.app/).
 
-### Available Features
+# Available Features
 
 In the project, you can:
 
