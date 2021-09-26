@@ -1,0 +1,46 @@
+.flexbox{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.Employes{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 30px;
+}
+.salary{
+    width: 20%;
+    height: 100%;
+    background: rgb(36, 36, 36);
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    left: 95%;
+    transition: left linear 0.3s;
+
+}
+.salary:hover{
+    left: 80%;
+}
+.salary .salary-paid{
+    display: block;
+    position: fixed;
+    left: 100%;
+    transition: left linear 0.1s;
+}
+
+.salary:hover .salary-paid{
+    display: block;
+    left: 82%;
+}
+
+.salary img{
+    position: fixed;
+    left: 96%;
+    width: 50px;
+}
+.salary:hover img{
+    display: none;
+}

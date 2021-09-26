@@ -1,0 +1,25 @@
+.grid-employe{
+    display: grid;
+    grid-template-columns: 40% auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.295);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.grid-employe .half-4{
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.grid-employe .half-6{
+    padding: 10px 5px 10px 20px;
+}
+
+.payButton{
+    padding: 10px 18px;
+    background-color: coral;
+    color: #fafafa;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

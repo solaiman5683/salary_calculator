@@ -1,0 +1,10 @@
+.container{
+    text-align: center;
+    background: linear-gradient(140deg,#454444,#271d1d);
+    padding: 20px;
+    color: white;
+}
+
+.text-coral{
+    color: coral;
+}
