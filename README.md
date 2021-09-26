@@ -6,7 +6,7 @@ This is an app for keeping track of salaries, the money that restaurant employee
 
 ## In the project, you can:
 
-#### - See all the stuff
+#### - See all the Employe
 #### - See thair Personal Information
 #### - See thair Contact Information
 #### - See thair Salary
