@@ -30,3 +30,13 @@
     color: rgb(37, 37, 37);
     font-size: 18px;
 }
+
+
+@media all and (max-width: 600px){
+    .grid-employe{
+       grid-template-columns: 1fr;
+    }
+    .grid-employe .half-4{
+        height: 400px;
+    }
+}

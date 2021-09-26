@@ -46,3 +46,52 @@
 .salary:hover img{
     display: none;
 }
+
+
+@media all and (max-width: 1360px) {
+    .Employes{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media all and (max-width: 980px) {
+    .Employes{
+        grid-template-columns: 1fr;
+    }
+    .Employes{
+        width: 90%;
+    }
+    .salary{
+        left: 90%;
+    }
+    .salary img{
+        left: 92%;
+    }
+    .salary:hover .salary-paid{
+        display: block;
+        left: 65%;
+    }
+    .salary:hover{
+        width: 40%;
+        left: 60%;
+    }
+}
+
+@media all and (max-width: 600px){
+    .Employes{
+        width: 80%;
+    }
+    .salary{
+        left: 80%;
+    }
+    .salary img{
+        left: 85%;
+    }
+    .salary:hover .salary-paid{
+        display: block;
+        left: 55%;
+    }
+    .salary:hover{
+        width: 50%;
+        left: 50%;
+    }
+}
