@@ -1,10 +1,15 @@
 # Hero kitchen salary calculator app.
 
-This project can be use for calculating the salary of a Resturent existing stuff (https://github.com/facebook/create-react-app).
+This is an app for keeping track of salaries, the money that restaurant employees have been paid we track with this app. (https://herokitchen.netlify.app/).
 
-## Available Scripts
+## Available Features
 
-In the project directory, you can run:
+In the project, you can:
 
-### `yarn start`
+### See all the stuff
+### See thair Personal Information
+### See thair Contact Information
+### See thair Salary
+### Pay employe salary
+### Calculate Salaries that already Paid
 
